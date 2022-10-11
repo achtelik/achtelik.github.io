@@ -1,1 +1,5 @@
-theme: Cayman
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-them
+title: achtelik.it
+description: Thoughts of a software engineer.
