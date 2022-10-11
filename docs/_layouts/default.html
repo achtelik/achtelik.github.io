@@ -18,7 +18,9 @@
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-      {% include header-custom.html %}
+
+      <a href="/" class="btn">Home</a>
+      <a href="/about" class="btn">About</a>
     </header>
 
     <main id="content" class="main-content" role="main">
