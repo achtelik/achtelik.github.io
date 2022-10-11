@@ -6,6 +6,7 @@ description: Thoughts of a software engineer.
 {% for post in site.posts %}
   <div>
     <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-    {{ post.excerpt }}
+    <p>{{ post.date }}</p>
+    <p>{{ post.excerpt }}</p>
   </div>
 {% endfor %}
