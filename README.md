@@ -5,3 +5,5 @@ This project contains the public website of https://achtelik.it bases on https:/
 Jekill-Docs: https://jekyllrb.com/docs/
 
 Github-Pages-Docs: https://docs.github.com/en/pages
+
+Github-Pages-Versions: https://pages.github.com/versions/
