@@ -3,9 +3,16 @@ plugins:
 - jekyll-remote-theme
 title: Achtelik.it
 description: Thoughts of a software engineer.
+timezone: Europe/Berlin
 defaults:
   -
     scope:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts
+    values:
+      layout: "post"
