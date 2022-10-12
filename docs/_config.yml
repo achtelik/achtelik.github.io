@@ -1,4 +1,4 @@
-remote_theme: theme: minima
+theme: minima
 plugins:
 - jekyll-remote-theme
 - jekyll-paginate
