@@ -4,6 +4,8 @@ This project contains the public website of https://achtelik.it bases on https:/
 
 Jekill-Docs: https://jekyllrb.com/docs/
 
+Jekill-Theme-Minima: https://github.com/jekyll/minima
+
 Github-Pages-Docs: https://docs.github.com/en/pages
 
 Github-Pages-Versions: https://pages.github.com/versions/
