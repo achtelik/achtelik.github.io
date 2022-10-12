@@ -5,7 +5,7 @@ plugins:
 title: Achtelik.it
 description: Thoughts of a software engineer.
 timezone: Europe/Berlin
-paginate: 10
+paginate: 1
 paginate_path: "/:num/"
 defaults:
   -
