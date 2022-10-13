@@ -47,6 +47,12 @@ a:visited {
   justify-content: center;
 }
 
+.flex-row-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .color-white {
   color: $custom-white !important;
 }
