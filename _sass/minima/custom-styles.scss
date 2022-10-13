@@ -18,21 +18,29 @@
 }
 
 h1 {
-  color: #4CAF50;
+  color: $custom-green;
 }
 
 body {
-  background-color: #fafafa;
+  background-color: $custom-white;
 }
 
 .site-header {
-  background-image: linear-gradient(120deg, #2196F3, #4CAF50);
+  background-image: linear-gradient(120deg, $custom-blue, $custom-green);
 }
 
 .site-title {
-  color: #fafafa;
+  color: $custom-white !important;
 }
 
 .site-nav {
-  color: #fafafa;
+  color: $custom-white !important;
+}
+
+a {
+  color: $custom-blue;
+}
+
+a:visited {
+  color: $custom-blue-dark;
 }
