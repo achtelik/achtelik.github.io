@@ -31,6 +31,7 @@ body {
 
 .site-title {
   color: $custom-white !important;
+  text-align: center;
 }
 
 .page-link {
@@ -43,4 +44,10 @@ a {
 
 a:visited {
   color: $custom-blue-dark;
+}
+
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
