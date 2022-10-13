@@ -28,3 +28,6 @@ header_pages:
   - _pages/search.html
 include:
   - _pages
+tipue_search:
+  exclude:
+    files: [index.html, _pages/search.html]
