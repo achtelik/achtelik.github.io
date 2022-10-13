@@ -24,3 +24,5 @@ minima:
   date_format: "%Y-%m-%d %H:%M"
 show_excerpts: true
 header_pages: _pages
+include:
+  - _pages
