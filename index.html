@@ -1,5 +1,12 @@
 ---
 title:  Achtelik.it
 description: Thoughts of a software engineer.
-layout: home
 ---
+
+{%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+{%- endif -%}
+
+{{ content }}
+
+{% include posts-list.html %}
