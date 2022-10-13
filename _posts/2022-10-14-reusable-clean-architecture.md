@@ -47,7 +47,7 @@ layers
     * ... = Other technologies could be jms, file, or other stuff.
 
 tests
-* test is a package which contains additional classes to simplify your tests. For example:
+* tests is a package which contains additional classes to simplify your tests. For example:
   * testdata = Builders and factories to create test data.
   * base = Classes which create the basic setup for your tests. For example to:
     * Setup a database and other test dependencies.
