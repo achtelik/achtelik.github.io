@@ -2,21 +2,25 @@
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
 
 .post-meta {
-    font-size: 0.8em;
-    font-style: italic;
-    margin: 0;
-  }
-  
-  .post-image {
-    font-size: 0.8em;
-    font-style: italic;
-    margin: 0;
-  }
-  
-  .post-image img{
-    border: 1px solid black;
-  }
-  
-  h1 {
-    color: #4CAF50;
-  }
+  font-size: 0.8em;
+  font-style: italic;
+  margin: 0;
+}
+
+.post-image {
+  font-size: 0.8em;
+  font-style: italic;
+  margin: 0;
+}
+
+.post-image img {
+  border: 1px solid black;
+}
+
+h1 {
+  color: #4CAF50;
+}
+
+body {
+  background-color: #fafafa;
+}
