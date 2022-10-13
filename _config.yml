@@ -25,9 +25,11 @@ header_pages:
   - _pages/topics.md
   - _pages/projects.md
   - _pages/about.md
-  - _pages/search
+  - _pages/search.html
 include:
   - _pages
 tipue_search:
+  include:
+    pages: true
   exclude:
     files: [index.html, _pages/search.html]
