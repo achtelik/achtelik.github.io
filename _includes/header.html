@@ -7,7 +7,7 @@
             {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
             <div class="flex-column-center">
                 <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-                <p>{{ site.description }</p>
+                <p>{{ site.description }}</p>
             </div>
             {{ site.description | escape }
             {%- if titles_size > 0 -%}
