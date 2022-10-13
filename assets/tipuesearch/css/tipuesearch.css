@@ -38,7 +38,7 @@ http://www.tipue.com/search
 #tipue_search_input
 {
      color: #333;
-     max-width: 210px;
+     width: 100%;
 	padding: 17px;
 	border: 1px solid #e3e3e3;
 	border-radius: 0;
@@ -61,12 +61,13 @@ http://www.tipue.com/search
 .tipue_search_field_icon
 {
     flex: 0 0 auto;
+    display: flex;
+    align-items: center;
 }
 .tipue_search_field_input
 {
     flex: 1 1 auto;
 }
-
 
 /* search results */
 
