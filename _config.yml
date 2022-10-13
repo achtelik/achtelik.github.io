@@ -5,17 +5,15 @@ plugins:
 title: Achtelik.it
 description: Thoughts of a software engineer.
 timezone: Europe/Berlin
-paginate: 1
+paginate: 10
 paginate_path: "/:num/"
 defaults:
-  -
-    scope:
+  - scope:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
       excerpt_separator: <!--more-->
-  -
-    scope:
+  - scope:
       path: "" # an empty string here means all files in the project
       type: "posts"
     values:
@@ -25,5 +23,6 @@ minima:
 show_excerpts: true
 header_pages:
   - _pages/about.md
+  - _pages/projects.md
 include:
   - _pages
