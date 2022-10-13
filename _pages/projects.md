@@ -1,5 +1,3 @@
 ---
 title: Projects
 ---
-
-# Projects
