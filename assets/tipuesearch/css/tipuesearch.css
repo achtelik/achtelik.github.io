@@ -53,14 +53,18 @@ http://www.tipue.com/search
      width: 24px;
      height: 24px;
 }
-.tipue_search_left
-{
-     float: left;
-     padding: 15px 9px 0 0;
+
+.tipue_search_form {
+    display: flex;
+    width: 100%;
 }
-.tipue_search_right
+.tipue_search_field_icon
 {
-     float: left;
+    flex: 0 0 auto;
+}
+.tipue_search_field_input
+{
+    flex: 1 1 auto;
 }
 
 
