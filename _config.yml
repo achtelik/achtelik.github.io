@@ -7,17 +7,20 @@ description: Thoughts of a software engineer.
 timezone: Europe/Berlin
 paginate: 10
 paginate_path: "/:num/"
+excerpt_separator: <!--more-->
 defaults:
   - scope:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
-      excerpt_separator: <!--more-->
   - scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts"
+      path: "_posts"
     values:
       layout: "post"
+  - scope:
+      path: "_pages"
+    values:
+      layout: "page"
 minima:
   date_format: "%Y-%m-%d %H:%M"
 show_excerpts: true
