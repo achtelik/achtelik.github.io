@@ -25,7 +25,7 @@ header_pages:
   - _pages/topics.md
   - _pages/projects.md
   - _pages/about.md
-  - _pages/search.html
+  - _pages/search.md
 include:
   - _pages
 tipue_search:
