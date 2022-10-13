@@ -2,7 +2,6 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $border-color-03;
   border-bottom: 1px solid $border-color-01;
   min-height: $spacing-unit * 1.865;
   line-height: $base-line-height * $base-font-size * 2.25;
@@ -106,7 +105,7 @@
 
     .page-link {
       display: inline;
-      padding: 0;
+      padding: 0 10px;
 
       &:not(:last-child) {
         margin-right: 20px;

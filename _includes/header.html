@@ -6,9 +6,9 @@
             {%- assign page_paths = site.header_pages | default: default_paths -%}
             {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
             <div class="flex-column-center">
-                <a class="site-title text-center color-white" rel="author" href="{{ "/" | relative_url }}">{{ site.title
+                <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title
                 | escape }}</a>
-                <span class="color-white opacity50 text-center">{{ site.description }}</span>
+                <span class="site-subtitle">{{ site.description }}</span>
             </div>
             {%- if titles_size > 0 -%}
             <div class="flex-row-center">

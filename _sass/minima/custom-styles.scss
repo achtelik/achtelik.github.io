@@ -17,6 +17,25 @@
   border: 1px solid black;
 }
 
+.site-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: $custom-white !important;
+  text-align: center;
+}
+
+.site-subtitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: $custom-white !important;
+  text-align: center;
+  opacity: 50%;
+  line-height: $base-line-height * $base-font-size;
+}
+
+
 h1 {
   color: $custom-green;
 }
