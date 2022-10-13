@@ -20,3 +20,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+minima:
+  date_format: "%Y-%m-%d %H:%M"
+show_excerpts: true
